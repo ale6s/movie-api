@@ -1,0 +1,35 @@
+body{
+    background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+nav{
+    width: 100%;
+}
+li{
+    display: inline-block;
+    margin-right: 50px;
+    font-size: 25px;
+    font-weight: bold;
+}
+h1{
+    text-align: center;
+}
+b, p{
+    color: white;
+}
+a{
+    color: white;
+}
+a:hover{
+    color: tomato;
+}
+
+.wrapper{
+    margin-left: 10%;
+    width: 80%;
+}
+.active{
+    color: tomato;
+}
