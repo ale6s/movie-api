@@ -32,7 +32,6 @@
     <hr>
     <div class="container">
         <?php
-        //api key = 3a3330a1ff29d7badf49edcdd5daf3b6
         $json = file_get_contents('https://api.themoviedb.org/3/movie/upcoming?api_key=3a3330a1ff29d7badf49edcdd5daf3b6&language=en-US&page=1');
         $data = json_decode($json, true);
         //storing api into an array

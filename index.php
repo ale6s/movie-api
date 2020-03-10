@@ -34,7 +34,6 @@
     <hr>
     <div class="container">
         <?php
-        //api key = 3a3330a1ff29d7badf49edcdd5daf3b6
         /*
     *declaring The Movie Database API
     *decoding Api
